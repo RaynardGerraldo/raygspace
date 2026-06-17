@@ -272,6 +272,15 @@ body {
     line-height: 1.6;
 }
 
+.note-body a {
+    color: #004d4d;
+    text-decoration: none;
+}
+
+.note-body a:hover {
+    text-decoration: underline;
+}
+
 .note-body p {
     margin: 0 0 1.5rem 0;
 }
