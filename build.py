@@ -22,6 +22,9 @@ SKIP_FILES = {"_layout.html", "_config.json"}
 def parse_source(path):
     with open(path, encoding="utf-8") as f:
         raw = f.read()
+    if raw.startswith("\ufeff"):
+        raw = raw[1:]
+    raw = raw.lstrip()
     if not raw.startswith("---"):
         return None, raw
     end = raw.index("---", 3)
