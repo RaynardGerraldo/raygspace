@@ -1,0 +1,25 @@
+base_url = "https://rayg.space"
+title = "Ray's Notes"
+description = "Ray's Notes"
+default_language = "en"
+build_search_index = false
+
+
+# Enable RSS feed
+generate_feeds = true
+feed_filenames = ["feed.xml"]
+
+
+taxonomies = [
+    { name = "categories", feed = true }
+]
+
+
+[extra]
+email = "ray@rayg.space"
+nav = [
+    { label = "Home", url = "/" },
+    { label = "Bible Notes", url = "/bible-notes.html" },
+    { label = "Topics", url = "/topics.html" },
+    { label = "About", url = "/about.html" }
+]

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }} - Bible Notes Index{% endblock title %}
+
+{% block content %}
+<section>
+    <h2 class="section-title">Bible Notes Index</h2>
+    <div class="books-container">
+        <ul class="books-list">
+            <li class="book-item">
+                <span class="book-bullet">&bull;</span>
+                <a class="book-link" href="/exodus/">Exodus</a>
+            </li>
+            <li class="book-item">
+                <span class="book-bullet">&bull;</span>
+                <a class="book-link" href="/leviticus/">Leviticus</a>
+            </li>
+            <li class="book-item">
+                <span class="book-bullet">&bull;</span>
+                <a class="book-link" href="/lamentations/">Lamentations</a>
+            </li>
+        </ul>
+    </div>
+</section>
+{% endblock content %}

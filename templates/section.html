@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }} - {{ section.extra.label }} Notes{% endblock title %}
+
+{% block content %}
+<section>
+    <div class="back-link-container">
+        <a class="back-link" href="{{ section.extra.parent_page }}">
+            &#9668; Back to {{ section.extra.parent_label }}
+        </a>
+    </div>
+    <h2 class="section-title">{{ section.extra.label }} - Notes</h2>
+    <div class="notes-list-container">
+        {% for page in section.pages | sort(attribute="date") | reverse %}
+            <div class="list-item">
+                <span class="list-bullet">&bull;</span>
+                <span class="list-date">{{ page.date | date(format="%d.%m.%Y") }}</span>
+                <a class="list-link" href="{{ page.permalink }}">{{ page.title }}</a>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock content %}

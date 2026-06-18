@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }} - {{ page.title }}{% endblock title %}
+
+{% block content %}
+{% if page.extra.category %}
+<div class="back-link-container">
+    <a class="back-link" href="/{{ page.extra.category }}/">
+        &#9668; Back to {{ page.extra.category_label }} Archive
+    </a>
+</div>
+{% endif %}
+
+<article class="note-article">
+    <header class="note-header">
+        <h2 class="section-title">{{ page.title }}</h2>
+    </header>
+    <div class="note-body">
+        {{ page.content | safe }}
+    </div>
+</article>
+{% endblock content %}

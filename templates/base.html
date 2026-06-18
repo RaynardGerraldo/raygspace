@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Ray's Notes RSS" href="/feed.xml">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header-title">{{ config.title }}</h1>
+        <nav class="header-nav">
+            {% for item in config.extra.nav %}
+                {% set_global active = false %}
+                {% if current_path == item.url %}
+                    {% set_global active = true %}
+                {% elif current_path == "/" and item.url == "/index.html" %}
+                    {% set_global active = true %}
+                {% endif %}
+                <a class="nav-link{% if active %} active{% endif %}" href="{{ item.url }}">{{ item.label }}</a>
+            {% endfor %}
+        </nav>
+    </header>
+
+    <main class="main-content">
+        {% block content %}{% endblock content %}
+    </main>
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a class="footer-link" href="/index.html">Home</a>
+            <a class="footer-link" href="/feed.xml">RSS</a>
+            <a class="footer-link" href="mailto:{{ config.extra.email }}">Contact</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
