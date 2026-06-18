@@ -4,16 +4,8 @@ description = "Ray's Notes"
 default_language = "en"
 build_search_index = false
 
-
-# Enable RSS feed
 generate_feeds = true
 feed_filenames = ["feed.xml"]
-
-
-taxonomies = [
-    { name = "categories", feed = true }
-]
-
 
 [extra]
 email = "ray@rayg.space"
