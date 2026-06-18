@@ -10,7 +10,10 @@ Acts 27:38<sup>[[1](https://www.biblegateway.com/passage/?search=Acts%2025-28&ve
 
 > "And when they had eaten enough, they lightened the ship, casting the wheat into the sea."
 
-I stumbled upon an interesting article in Wikipedia, "Cura annonae", which was "the logistics system which procured and distributed grain for the cities of Rome and, after its foundation, Constantinople"<sup>[[2](https://en.wikipedia.org/wiki/Cura_annonae)]</sup>. In the table of contents of this article, there was an entry for "The voyage of Paul". Apparently St. Paul was in one of these grain ships during his journey to Rome to appeal to Caesar. To give context from the book of Acts:
+Acts 28:11<sup>[[1](https://www.biblegateway.com/passage/?search=Acts%2025-28&version=DRA)]</sup>
+> "And after three months, we sailed in a ship of Alexandria, that had wintered in the island, whose sign was the Castors."
+
+I stumbled upon an interesting article in Wikipedia, "Cura annonae", which was "the logistics system which procured and distributed grain for the cities of Rome and, after its foundation, Constantinople"<sup>[[2](https://en.wikipedia.org/wiki/Cura_annonae)]</sup>. In the table of contents, there was an entry for "The voyage of Paul". Apparently St. Paul was in one of these grain ships during his journey to Rome to appeal to Caesar. To give context from the book of Acts:
 
 Acts 25:7-12<sup>[[1](https://www.biblegateway.com/passage/?search=Acts%2025-28&version=DRA)]</sup>
 
@@ -28,7 +31,7 @@ One example of such a ship was Isis, to quote Lucian of Samosata<sup>[[4](https:
 >
 > The crew was like a small army. And they were saying she carried as much corn as would feed every soul in Attica for a year."
 
-Another one is from Seneca (Letters to Lucilius 77.1.2)<sup>[[5](https://topostext.org/work/736)]</sup>, where he gives reference to how these ships travelled, which was in a fleet, and how there were ships that went ahead of them to announce their arrival:
+Another one is from Seneca (Letters to Lucilius 77.1.2)<sup>[[5](https://topostext.org/work/736)]</sup>, where he gives reference to how these ships travelled:
 
 > "Subito nobis hodie Alexandrinae naves apparuerunt, quae praemitti solent et nuntiare secuturae classis adventum; tabellarias vocant. Gratus illarum Campaniae aspectus est; omnis in pilis Puteolorum turba consistit et ex ipso genere velorum Alexandrinas..."
 >
@@ -38,9 +41,9 @@ Seneca here also makes mention of the people of Puteoli standing on the docks to
 
 Casson, in his work "The Isis and her Voyage"<sup>[[6](https://sci-hub.red/10.2307/283568)]</sup>, analyzes in detail the route of Isis in Lucian's work which we quoted before, but without getting into the details myself here, he concluded that the route of these Alexandrian grain ships were as such:
 
-Alexandria -> Cyprus -> Asia Minor (Myra/Lystra) -> Crete -> Malta -> Syracuse -> Straits of Messina -> Puteoli
+Alexandria -> Cyprus -> Asia Minor (Myra/Lystra) -> Crete (Acts 27:7) -> Malta (Location of Shipwreck, Acts 28:1) -> Syracuse (Acts 28:12)-> Straits of Messina (Rhegium/Reggio<sup>[[8](https://en.wikipedia.org/wiki/Reggio_Calabria)]</sup>, Acts 28:13) -> Puteoli (Acts 28:13)
 
-I recommend reading all the references I've cited here, there are some very interesting details which would be too lengthy for me to go through here.
+I recommend reading all the references I've cited here, especially [[3](https://digitalcommons.trinity.edu/cgi/viewcontent.cgi?params=/context/class_faculty/article/1041/&path_info=NHirschfeld_ShipSaintPaulHistoricalBackground_1990_article.pdf)] and [[6](https://sci-hub.red/10.2307/283568)], there are some very interesting details which would be too lengthy for me to go through here.
 
 ### References
 
@@ -51,5 +54,6 @@ I recommend reading all the references I've cited here, there are some very inte
 - [5] [Letters to Lucilius (Seneca)](https://topostext.org/work/736)
 - [6] [The Isis and her Voyage (Lionel Casson)](https://sci-hub.red/10.2307/283568)
 - [7] [Pozzuoli](https://en.wikipedia.org/wiki/Pozzuoli)
+- [8] [Rhegium/Reggio Calabria](https://en.wikipedia.org/wiki/Reggio_Calabria)
 
 +JMJ+
