@@ -6,7 +6,7 @@ This site is consecrated to Our Lady of Sorrows, and dedicated to my patron sain
 
 > "Gregory, bishop of Nazianzen, a most eloquent man, and my instructor in the Scriptures..." (De Viris Illustribus, St. Jerome) <sup>[[1](https://www.newadvent.org/fathers/2708.htm)]</sup>
 
-I have always wanted to make a blog, but for the most part I have no idea what to write about. Then a couple of years ago, I converted to the Catholic faith, and during my conversion process, I wrote lots of notes and reflections on theology and things related to it. Never really thought about making them public, but then I saw a friend's site ([https://port19.xyz/](https://port19.xyz/)), then suddenly that old desire of making a blog came back, and I thought to myself, well, now I have something to write about!
+I have always wanted to make a blog, but for the most part I have no idea what to write about. Then a couple of years ago, I converted to the Catholic faith, and during my conversion process, I wrote lots of notes and reflections on theology and things related to it. Never really thought about making them public, but then I saw a friend's site <sup>[[5](https://port19.xyz/)]</sup>, and that old desire of making a blog came back, and I thought to myself, well, now I have something to write about!
 
 Now to explain the contents of this site....
 
@@ -32,5 +32,6 @@ But, just in case someone actually reads my stuff, I want to deliver a really im
 - [2] [Typology](https://en.wikipedia.org/wiki/Typology_(theology))
 - [3] [Douay-Rheims Bible](https://en.wikipedia.org/wiki/Douay%E2%80%93Rheims_Bible)
 - [4] [CHURCH FATHERS: Oration 8 (Gregory Nazianzen)](https://www.newadvent.org/fathers/310208.htm)
+- [5] <a href="https://port19.xyz" target="_blank"><img src="https://github.com/port19x/port19.xyz/blob/master/static/buttons/port19.gif?raw=true" width="88" height="31"></a>
 
 +JMJ+
