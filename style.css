@@ -1,0 +1,322 @@
+:root {
+    --font-primary: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-secondary: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 2rem 0 2rem;
+}
+
+.header-title {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 448px;
+    margin: 1rem auto 0.5rem auto;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: color 0.15s ease-in-out, text-decoration 0.15s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #004d4d;
+    text-decoration: underline;
+}
+
+
+
+.main-content {
+    max-width: 800px;
+    margin: 2.5rem auto 0 auto;
+    padding: 0 2rem;
+}
+
+.section-title {
+    font-family: var(--font-secondary);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.post-list {
+    padding-left: 2.5rem;
+}
+
+
+
+.list-item {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.list-date {
+    color: #333333;
+}
+
+.list-link {
+    color: #004d4d;
+    text-decoration: none;
+}
+
+.list-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer {
+    max-width: 800px;
+    margin: 2.5rem auto 0 auto;
+    padding: 2.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.15s ease-in-out;
+}
+
+.footer-link.active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer-link:hover {
+    color: #004d4d;
+}
+
+.books-container {
+    font-size: 16px;
+    margin-top: 2.5rem;
+}
+
+.books-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 448px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+}
+
+.book-bullet {
+    margin-right: 0.5rem;
+}
+
+.book-link {
+    margin-left: 0.5rem;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+
+.book-link:hover {
+    color: #004d4d;
+    text-decoration: underline;
+}
+
+.back-link-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+
+.back-link {
+    color: #004d4d;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.15s ease-in-out;
+}
+
+.back-link:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.notes-list-container {
+    padding-left: 2.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #004d4d;
+    color: #ffffff;
+}
+
+.note-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.note-header {
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.note-body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.note-body a {
+    color: #004d4d;
+    text-decoration: none;
+}
+
+.note-body a:hover {
+    text-decoration: underline;
+}
+
+.note-body p {
+    margin: 0 0 1.5rem 0;
+}
+
+
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.flex-child {
+    flex: 1 1 300px;
+}
+
+/* Markdown Elements Styling */
+.note-body blockquote {
+    margin: 1.5rem 0 1.5rem 1rem;
+    border-left: 2px solid #004d4d;
+    padding-left: 1rem;
+    font-style: normal;
+}
+
+.note-body blockquote p {
+    margin: 0;
+}
+
+.note-body h3 {
+    margin-top: 2rem !important;
+    color: #004d4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.note-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+.note-body ul li {
+    margin-bottom: 0.5rem;
+    color: #333333;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 20px 1rem 0 1rem;
+    }
+
+    .header-title {
+        font-size: 32px;
+        padding: 0.5rem 0;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem 0.5rem;
+    }
+
+    .nav-link {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .main-content {
+        padding: 0 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .note-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+        text-align: center;
+    }
+}
