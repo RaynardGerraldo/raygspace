@@ -32,6 +32,6 @@ But, just in case someone actually reads my stuff, I want to deliver a really im
 - [2] [Typology](https://en.wikipedia.org/wiki/Typology_(theology))
 - [3] [Douay-Rheims Bible](https://en.wikipedia.org/wiki/Douay%E2%80%93Rheims_Bible)
 - [4] [CHURCH FATHERS: Oration 8 (Gregory Nazianzen)](https://www.newadvent.org/fathers/310208.htm)
-- [5] <a href="https://port19.xyz" target="_blank"><img src="https://github.com/port19x/port19.xyz/blob/master/static/buttons/port19.gif?raw=true" width="88" height="31"></a>
+- [5] <a href="https://port19.xyz" target="_blank"><img src="https://raw.githubusercontent.com/port19x/port19.xyz/refs/heads/master/static/buttons/port19.gif" width="88" height="31"></a>
 
 +JMJ+
